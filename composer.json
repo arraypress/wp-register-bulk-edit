@@ -1,8 +1,8 @@
 {
-  "name": "arraypress/wp-register-bulk-edit",
+  "name": "arraypress/wp-register-bulk-edit-fields",
   "version": "1.0.0",
   "description": "Lightweight library for registering custom bulk edit fields on WordPress post list tables.",
-  "homepage": "https://github.com/arraypress/wp-register-bulk-edit/",
+  "homepage": "https://github.com/arraypress/wp-register-bulk-edit-fields/",
   "type": "library",
   "license": "GPL-2.0-or-later",
   "authors": [
@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ArrayPress\\RegisterBulkEdit\\": "src/"
+      "ArrayPress\\RegisterBulkEditFields\\": "src/"
     },
     "files": [
       "src/Functions.php"
@@ -30,8 +30,8 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "support": {
-    "issues": "https://github.com/arraypress/wp-register-bulk-edit/issues",
-    "source": "https://github.com/arraypress/wp-register-bulk-edit"
+    "issues": "https://github.com/arraypress/wp-register-bulk-edit-fields/issues",
+    "source": "https://github.com/arraypress/wp-register-bulk-edit-fields"
   },
   "keywords": [
     "wordpress",

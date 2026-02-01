@@ -6,7 +6,7 @@
  * post list tables. Provides a simple API for common field types with
  * automatic saving and sanitization.
  *
- * @package     ArrayPress\WP\RegisterBulkEdit
+ * @package     ArrayPress\RegisterBulkEditFields
  * @copyright   Copyright (c) 2025, ArrayPress Limited
  * @license     GPL2+
  * @version     1.0.0
@@ -15,7 +15,7 @@
 
 declare( strict_types=1 );
 
-namespace ArrayPress\RegisterBulkEdit;
+namespace ArrayPress\RegisterBulkEditFields;
 
 use Exception;
 
@@ -26,7 +26,7 @@ use Exception;
  *
  * @package ArrayPress\RegisterBulkEdit
  */
-class BulkEdit {
+class BulkEditFields {
 
     /**
      * The post type this instance is registered for.

@@ -1,4 +1,4 @@
-# WP Register Bulk Edit
+# WP Register Bulk Edit Fields
 
 A lightweight library for registering custom bulk edit fields on WordPress post list tables.
 
@@ -17,7 +17,7 @@ A lightweight library for registering custom bulk edit fields on WordPress post 
 Install via Composer:
 
 ```bash
-composer require arraypress/wp-register-bulk-edit
+composer require arraypress/wp-register-bulk-edit-fields
 ```
 
 ## Usage
